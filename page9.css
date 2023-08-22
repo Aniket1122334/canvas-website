@@ -1,0 +1,34 @@
+#page9{
+    height: 100vh;
+    width:100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: yellow; */
+}
+
+#page9 .left{
+    /* background-color: aqua; */
+    font-size: 5vw;
+    font-family: a;
+    color:#fff;
+    /* background-color: aqua; */
+    width:40vw;
+    /* height: 80vh; */
+    text-align:start;
+}
+
+#page9 .left h1{
+    font-weight: 200;
+}
+
+#page9 .right{
+    background-color: aqua;
+    width:50vw;
+    height: 80vh;
+    background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+    background-position: 60%;
+    background-size: cover;
+    border-radius: 20px;;
+}

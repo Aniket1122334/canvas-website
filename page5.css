@@ -1,0 +1,13 @@
+#page5{
+    position: relative;
+    height:100vh;
+    width:100vw;
+    background-color: #0b48ed;
+}
+
+#page5 canvas{
+    position: relative;
+    height:100vh;
+    width:100vw;
+    /* background-color: aqua; */
+}

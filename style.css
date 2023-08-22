@@ -1,0 +1,137 @@
+*{
+padding:0%;
+margin:0%;
+box-sizing: border-box;
+}
+
+html , body{
+height: 100%;
+width:100%;
+background-color:  #0b48ed;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+    /* background-color: #0b48ed; */
+}
+
+@font-face {
+    font-family: a;
+    src: url("Magma-main/jost-variable.ttf");
+}
+
+@font-face {
+    font-family: b;
+    src: url("Magma-main/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf");
+}
+
+@font-face {
+    font-family: c;
+    src: url("Magma-main/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf");
+}
+#page1{
+    height: 100vh;
+    width:100vw;
+    /* background-color: red; */
+    position:relative;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page1 nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30px;
+    position: absolute;
+    height:10vh;
+    width: 100vw;
+    /* background-color: yellow; */
+}
+
+#page1 nav img{
+    width:9%;
+}
+
+#right-div{
+    margin-top:4vh;
+}
+
+#right-div button{
+    padding:10px 20px;
+    margin:0px 4px;
+    border-radius: 50px;
+    border:1px solid white;
+    background-color: #0b48ed;
+    color:#fff;
+    font-size:0.9rem;
+
+}
+ 
+/*___writing section on page1__ */
+
+.bottom_page1{
+    /* background-color: aqua; */
+    height:40vh;
+    width:40vw;
+    position: absolute;
+    top:48vh;
+    left:12vw;
+    background-color: transparent;
+}
+
+.bottom_page1 h1{
+    font-family: a;
+    font-weight: 100;
+    font-size: 5.5vmax;
+    color: #fff;
+    line-height: 1;
+    /* text-align: center; */
+}
+
+.bottom_page1 .para-div{
+    /* background-color: greenyellow; */
+    margin-top: 5vh;
+    height: 8vh;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.bottom_page1 .para-div h4{
+    font-family: a;
+    font: size 1vmax;;
+    color:#fff;
+    line-height: 1;
+    font-weight: 100;
+}
+
+.bottom_page1 .para-div button{
+    margin:0px 2vw;
+    padding:0.9vw 2vw;
+    border-radius:50px;
+    text-transform: uppercase;
+    color: blue;
+    cursor:pointer;
+    z-index: 999;
+    transition: 0.5s ease;
+}
+
+.bottom_page1 .para-div button:hover{
+    background-color: #000;
+    color:white;
+} 
+
+
+
+
+
+
+
+

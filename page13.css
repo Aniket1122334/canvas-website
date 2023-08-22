@@ -1,0 +1,126 @@
+#page13 {
+  display: flex;
+  color: #fff;
+  background-color: #000;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: space-evenly; */
+}
+
+#page13 .booking {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* background-color: red; */
+  padding: 0vh 3vh;
+  margin: 8vh 13vw;
+
+  height: 43vh;
+  width: 76vh;
+}
+
+#page13 .booking h1 {
+  font-size: 5vmax;
+  font-family: a;
+  font-weight: 300;
+}
+
+#page13 .booking button {
+  padding: 1vw 3vw;
+  margin: 2vw 0.5vw;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 50px;
+  border: 2px solid #0b48ed;
+  background-color: #0b48ed;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#page13 .booking button:hover {
+  background-color: #000;
+}
+
+#page13 .social{
+    display: flex;
+    /* justify-content: 30vh; */
+    padding:0vw 15.5vw;
+    align-items: center;
+    width:100vw;
+    height:12vh;
+    font-family: a;
+    letter-spacing: 3px;
+    border:1px solid white;
+    border-left: transparent;
+    border-right : transparent;
+    transition: 0.4s ease;
+    cursor: pointer;
+    /* opacity: 0; */
+}
+
+#page13 .twitter:hover{
+    animation-name: hover_twitter;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#page13 .linkdin:hover{
+    animation-name: hover_linkdin;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+
+#page13 .insta:hover{
+    animation-name: hover_insta;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hover_linkdin{
+    0%{
+        opacity: 0;
+        background-color: #0A66C2;
+    }
+
+    100%{
+        opacity:1;
+        background-color: #0A66C2;  
+    }
+
+}
+
+
+@keyframes hover_twitter{
+    0%{
+        opacity: 0;
+        background-color: #00acee;
+    }
+
+    100%{
+        opacity:1;
+        background-color: #00acee;  
+    }
+
+}
+
+@keyframes hover_insta{
+    0%{
+        opacity: 0;
+        background:linear-gradient(to bottom right , #feda75 , #fa7e1e , #d62976);
+    }
+
+    100%{
+        opacity:1;
+        background:linear-gradient(to bottom right , #feda75 , #fa7e1e , #d62976);
+    }
+
+}
+

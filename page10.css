@@ -1,0 +1,46 @@
+#page10{
+    height: 100vh;
+    width:100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+    justify-content: space-around;
+}
+
+.page10_left{
+    /* background-color: aqua; */
+    width:40vw;
+    height: 80vh;
+}
+
+.page10_right{
+    /* background-color: aqua; */
+    width:50vw;
+    height: 90vh;
+    border-radius: 20px;
+}
+
+.common_para{
+    /* background-color: red; */
+    padding:0vw 3vw;
+    margin:1.5vw 0vw;
+    font-family: a;
+}
+
+.heading_h2{
+    color:white;
+    padding:1vw;
+    line-height: 2;
+    font-size: 1.3vmax;
+    
+}
+
+.paragraph_page10{
+    color:white;
+    line-height: 1.3;
+    font-size: 1.2vmax;
+    font-weight: 200;
+    padding:0.5vw 1vw;
+    /* text-indent: 230px; */
+}

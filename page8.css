@@ -1,0 +1,51 @@
+#page8{
+    align-items: center;
+    display: flex;
+     flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    width:100vw;
+    height: 100vh;
+    background-color: violet;
+}
+
+#page8 #letter_div_page8{
+    position: absolute;
+    bottom:10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page8 h1{
+    font-size: 6vmax;
+    font-family: a;
+    color:#fff;
+    font-weight: 100;
+    text-transform: uppercase;
+    z-index:99;
+}
+
+#page8 button{
+    padding:1vw 2vw;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color:blue;
+    cursor: pointer;
+    z-index:99;
+    border:1px solid white;
+    transition: 0.5s ease;
+}
+
+#page8 button:hover{
+    background-color: #000;
+    color:white;
+} 
+
+#page8 video{
+    width:100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+

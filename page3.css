@@ -1,0 +1,13 @@
+#page3{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    background-color: #0b48ed;
+}
+
+#page3 canvas{
+    width:100vw;
+    height:100vh;
+    position: relative;
+}
+
